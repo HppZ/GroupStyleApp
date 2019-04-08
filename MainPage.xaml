@@ -73,7 +73,7 @@
             <GridView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <!--<ItemsWrapGrid Orientation="Horizontal" SizeChanged="ItemsPanel_SizeChanged"></ItemsWrapGrid>-->
-                    <ItemsWrapGrid Orientation="Horizontal" SizeChanged="ItemsPanel_SizeChanged"></ItemsWrapGrid>
+                    <WrapGrid Orientation="Horizontal" SizeChanged="ItemsPanel_SizeChanged"></WrapGrid>
                 </ItemsPanelTemplate>
             </GridView.ItemsPanel>
         </GridView>
